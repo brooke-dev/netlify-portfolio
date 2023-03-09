@@ -28,7 +28,7 @@
   #connect select,
   #connect textarea {
     border: none;
-    background-color: #eee;
+    background-color: rgb(212, 163, 115);
     padding: 10px;
     margin-bottom: 20px;
     width: 100%;
@@ -42,7 +42,7 @@
   #connect select:focus,
   #connect textarea:focus {
     outline: none;
-    background-color: #fff;
+    background-color: rgb(204, 213, 174);
   }
   
   #connect button {

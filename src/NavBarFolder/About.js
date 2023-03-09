@@ -15,7 +15,7 @@ function About() {
 
     <p> In short, I have a ton of passion for the work that I bring to this world! Please feel free to contact me, even if it is just to say hello!</p>
 
-    <h2> A picture is worth a thousand words</h2>
+    {/* <h2> A picture is worth a thousand words</h2> */}
   </section>
   );
 }

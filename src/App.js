@@ -1,24 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from "react";
+import React from 'react'
+import { Element } from 'react-scroll';
+
+
+// Components
+import NavBar from './NavBarFolder/NavBar'
+import Home from './NavBarFolder/Home'
+import About from './NavBarFolder/About'
+import Projects from './NavBarFolder/Projects'
+import Connect from './NavBarFolder/Connect'
+
+
 
 function App() {
+  const [isDarkMode,setIsDarkMode] = useState(false)
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // <div className="App">
+      <div className={isDarkMode ? 'App dark-mode' : 'App light-mode'}>
+      <NavBar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+        <Element name="home">
+          <Home />
+        </Element>
+        <Element name="about">
+          <About />
+        </Element>
+        <Element name="projects">
+          <Projects />
+        </Element>
+        <Element name="connect">
+          <Connect />
+        </Element>
     </div>
+   
   );
 }
 

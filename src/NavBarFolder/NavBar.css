@@ -1,0 +1,72 @@
+nav {
+    background-color: rgb(204, 213, 174);
+    color: white;
+    display: flex;
+    /* justify-content: flex-end; update justify-content to push links to the right */
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+nav button{
+  background-color: rgb(204, 213, 174);
+  margin-right: auto; /* align button to left */
+}
+
+nav button img {
+  width: 85%;
+  height: auto;
+  max-width: 30px; /* add a maximum width for smaller screens */
+}
+  
+  a:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  nav a:first-child {
+    margin-right: 40px; /* add more space to the right for the first link */
+  }
+  
+  nav a:last-child {
+    margin-right: auto;
+  }
+
+  @media (max-width: 768px) {
+  /* modify the padding to accommodate smaller screen sizes */
+  nav {
+    padding: 1rem;
+  }
+
+  /* stack the links vertically and center them */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* add space between the links */
+  a {
+    margin: 0.5rem 0;
+  }
+
+  /* remove the margin from the first link */
+  nav a:first-child {
+    margin-right: 0;
+  }
+
+  nav button {
+    padding: 8px; /* reduce the padding to make the button smaller */
+    font-size: 14px; /* reduce the font size to match the smaller button */
+  }
+  
+  nav button img {
+    max-height: 20px; /* reduce the maximum height of the images */
+  }
+}
+

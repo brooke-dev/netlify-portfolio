@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    background-color: rgb(250, 237, 205) ;
+
+  }
+  
+  .footer a {
+    font-weight: bold;
+    color: rgb(212, 163, 115);
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 20px;
+    padding-bottom: 2px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .footer a:hover {
+    color:  rgb(204, 213, 174);
+    border-bottom: 10px solid rgb(254, 250, 224);
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  

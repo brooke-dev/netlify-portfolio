@@ -10,6 +10,7 @@ import Home from './NavBarFolder/Home'
 import About from './NavBarFolder/About'
 import Projects from './NavBarFolder/Projects'
 import Connect from './NavBarFolder/Connect'
+import Footer from './Footer'
 
 
 
@@ -33,6 +34,7 @@ function App() {
         <Element name="connect">
           <Connect />
         </Element>
+        <Footer />
     </div>
    
   );

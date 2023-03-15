@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     margin-top: 0px;
-    background-color: rgb(250, 237, 205) ;
+    /* background-color: rgb(250, 237, 205) ; */
+    background-color: var(--chestnut);
 
   }
   

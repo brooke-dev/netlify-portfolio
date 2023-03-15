@@ -1,4 +1,4 @@
-#about {
+/* #about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,9 +6,13 @@
     padding: 5rem;
     text-align: center;
     background-color: rgb(250, 237, 205);
-  }
+    background: linear-gradient(to bottom, var(--platinum) 8%, var(--mellow-yellow) 100%);
+    background: linear-gradient(to bottom, var(--platinum) 50%, var(--mellow-yellow) 50%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    background: linear-gradient(to bottom right, var(--platinum) 10%, var(--mellow-yellow) 90%);
+  } */
   
-  #about h1 {
+ #about h1 {
     font-size: 3rem;
     margin-bottom: 3rem;
   }

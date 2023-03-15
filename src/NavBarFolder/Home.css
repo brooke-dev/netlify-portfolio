@@ -1,4 +1,16 @@
-#home {
+:root {
+  --platinum: #CDD7D4;
+  --reseda-green: #697C68;
+  --dark-green: #132213;
+  --bistre: #3B2514;
+  --chestnut: #954324;
+  --rosy-brown: #C69B88;
+  --night: #0D1307;
+  --mellow-yellow:rgb(250, 237, 205);
+}
+
+
+/* #home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,8 +19,9 @@
     padding: 0 20px;
     text-align: center;
     background-color: rgb(250, 237, 205) ;
-    /* background-image: var(--light-bg-image); */
-  }
+    background-color: var(--platinum)
+    background-image: var(--light-bg-image);
+  } */
   
   h1 {
     font-size: 3rem;

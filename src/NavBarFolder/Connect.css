@@ -1,8 +1,9 @@
-#connect {
+/* #connect {
     background-color: rgb(250, 237, 205);
+    background: linear-gradient(to bottom, var(--rosy-brown) 20%, var(--chestnut) 100%);
     padding: 50px 0;
     text-align: center;
-  }
+  } */
   
   #connect textarea {
     height: 150px;

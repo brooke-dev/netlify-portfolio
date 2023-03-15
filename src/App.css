@@ -125,7 +125,7 @@ html {
   padding: 0 20px;
   text-align: center;
   background-color: var(--platinum);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23697c68' d='M0,30 C10,45 25,60 40,70 C60,85 80,90 100,80 V0 H0 Z'/%3E%3Cpath fill='%23c69b88' d='M100,80 C85,85 70,85 60,80 C50,75 45,70 40,60 C35,50 30,35 20,20 C10,5 0,0 0,0 V100 H100 Z'/%3E%3C/svg%3E");
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23697c68' d='M0,30 C10,45 25,60 40,70 C60,85 80,90 100,80 V0 H0 Z'/%3E%3Cpath fill='%23c69b88' d='M100,80 C85,85 70,85 60,80 C50,75 45,70 40,60 C35,50 30,35 20,20 C10,5 0,0 0,0 V100 H100 Z'/%3E%3C/svg%3E"); */
 
   /* Crazy pattern */
   /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23697c68' d='M0,30 C10,45 25,60 40,70 C60,85 80,90 100,80 C90,85 70,85 60,80 C50,75 45,70 40,60 C35,50 30,35 20,20 C10,5 0,0 0,0 C10,15 20,30 40,30 C60,30 70,15 100,30 Z'/%3E%3Cpath fill='%23c69b88' d='M100,80 C85,85 70,85 60,80 C50,75 45,70 40,60 C35,50 30,35 20,20 C10,5 0,0 0,0 C10,15 20,30 40,30 C60,30 70,15 100,30 C85,40 75,50 60,60 C45,70 35,75 20,80 C35,85 50,85 60,80 C75,75 85,70 100,60 V100 H0 V80 C15,85 25,85 40,80 C55,75 65,70 80,60 C95,50 100,40 100,30 Z'/%3E%3C/svg%3E"); */

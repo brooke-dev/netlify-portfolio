@@ -47,16 +47,15 @@ function Projects() {
       <div className="project-container">
         {projects.map((project) => (
           <div key={project.title} className="project">
-            <a href={project.linkedinLink} target="_blank" rel="noopener noreferrer">
               <img src={project.screenshot} alt={project.title} />
               <div className="overlay">
                 <div className="description">{project.description}</div>
                 <div className="links">
                   <a href={project.demoLink} target="_blank" rel="noopener noreferrer">Demo</a>
                   <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
+                  <a href={project.linkedinLink} target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </div>
               </div>
-            </a>
           </div>
         ))}
       </div>

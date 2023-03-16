@@ -26,3 +26,4 @@ function NavBar({isDarkMode, setIsDarkMode}) {
 
 export default NavBar;
 
+

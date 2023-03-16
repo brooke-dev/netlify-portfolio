@@ -6,7 +6,8 @@ function Connect() {
   return (
   <section id="connect">
     <h1> Connect With Me!</h1>
-    <form name="contact" method="POST" netlify>
+    <form name="contact" method="post" data-netlify="true" >
+        <input type="hidden" name="contact" value="contact" />
         <p>
             <label>Your Name: <input type="text" name="name" /></label>
         </p>

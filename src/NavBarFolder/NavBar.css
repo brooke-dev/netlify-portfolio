@@ -1,18 +1,5 @@
-:root {
-  --platinum: #CDD7D4;
-  --reseda-green: #697C68;
-  --dark-green: #132213;
-  --bistre: #3B2514;
-  --chestnut: #954324;
-  --rosy-brown: #C69B88;
-  --night: #0D1307;
-  --mellow-yellow:rgb(250, 237, 205);
-}
-
-
 nav {
-    /* background-color: rgb(204, 213, 174); */
-    background-color: var(--chestnut) ;
+    background-color: rgba(149,67,36, 0.8);
     color: white;
     display: flex;
     /* justify-content: flex-end; update justify-content to push links to the right */
@@ -22,9 +9,17 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 97%;
     z-index: 9999;
   }
+
+nav a{
+  padding: 14px 16px;
+}
+.nav-right{
+  display: flex;
+  align-items: center;
+}
 
 nav button{
   background-color: rgb(204, 213, 174);
@@ -36,18 +31,17 @@ nav button img {
   height: auto;
   max-width: 30px; /* add a maximum width for smaller screens */
 }
-  
-  a:not(:last-child) {
-    margin-right: 30px;
-  }
-  
-  nav a:first-child {
-    margin-right: 40px; /* add more space to the right for the first link */
-  }
-  
-  nav a:last-child {
-    margin-right: auto;
-  }
+
+.brain-button.rotate img {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
 
   @media (max-width: 768px) {
   /* modify the padding to accommodate smaller screen sizes */

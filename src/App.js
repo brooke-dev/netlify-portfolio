@@ -11,17 +11,23 @@ import About from './NavBarFolder/About'
 import Projects from './NavBarFolder/Projects'
 import Connect from './NavBarFolder/Connect'
 import Footer from './Footer'
+import Modal from './Modal'
 
 
 
 function App() {
   const [isDarkMode,setIsDarkMode] = useState(false)
-
+  const [isBrainMode,setIsBrainMode] = useState(false)
 
   return (
     // <div className="App">
       <div className={isDarkMode ? 'App dark-mode' : 'App light-mode'}>
-      <NavBar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+      <NavBar 
+        isDarkMode = {isDarkMode} 
+        setIsDarkMode = {setIsDarkMode}
+        isBrainMode = {isBrainMode}
+        setIsBrainMode = {setIsBrainMode}        
+      />
         <Element name="home">
           <Home />
         </Element>

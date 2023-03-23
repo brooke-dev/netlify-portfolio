@@ -11,7 +11,6 @@ import About from './NavBarFolder/About'
 import Projects from './NavBarFolder/Projects'
 import Connect from './NavBarFolder/Connect'
 import Footer from './Footer'
-// import Modal from './Modal'
 
 
 
@@ -24,9 +23,7 @@ function App() {
       <div className={isDarkMode ? 'App dark-mode' : 'App light-mode'}>
       <NavBar 
         isDarkMode = {isDarkMode} 
-        setIsDarkMode = {setIsDarkMode}
-        // isBrainMode = {isBrainMode}
-        // setIsBrainMode = {setIsBrainMode}        
+        setIsDarkMode = {setIsDarkMode}    
       />
         <Element name="home">
           <Home />

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './Home.css'
 import headshot from './headshot.jpg'
-import { FaGithub, FaMedium, FaLinkedin } from 'react-icons/fa';
+// import { FaGithub, FaMedium, FaLinkedin } from 'react-icons/fa';
 
 function Home() {
   // Hobbies state and useEffect
@@ -30,11 +30,11 @@ function Home() {
     <h1> I am a software developer with a background in K-12 Music Education </h1>
     <h2> I am also {hobbies[currentHobby]} </h2>
     <img src={headshot} alt="headshot"  onClick={handleImageClick} className={isBouncing ? "bouncing" : ""}/>
-    <div style={{ marginTop: "20px" }}>
+    {/* <div style={{ marginTop: "30px" }}>
       <a href="https://www.linkedin.com/in/brooke-ross-se/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
       <a href="https://github.com/brookeross99" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
       <a href="https://medium.com/@brooke.ross2800" target="_blank" rel="noopener noreferrer"><FaMedium /></a>
-    </div>
+    </div> */}
   </section>
   );
 }

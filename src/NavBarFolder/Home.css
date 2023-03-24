@@ -1,15 +1,3 @@
-:root {
-  --platinum: #CDD7D4;
-  --reseda-green: #697C68;
-  --dark-green: #132213;
-  --bistre: #3B2514;
-  --chestnut: #954324;
-  --rosy-brown: #C69B88;
-  --night: #0D1307;
-  --mellow-yellow:rgb(250, 237, 205);
-}
-
-
 /* #home {
     display: flex;
     flex-direction: column;
@@ -22,6 +10,17 @@
     background-color: var(--platinum)
     background-image: var(--light-bg-image);
   } */
+
+  #home h1,
+  #home h2 {
+  backdrop-filter: blur(4px);
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  background-color: rgba(188,143,143, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+
   
   h1 {
     font-size: 3rem;

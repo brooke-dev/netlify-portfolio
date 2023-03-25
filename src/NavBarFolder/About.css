@@ -1,16 +1,12 @@
-/* #about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
-    text-align: center;
-    background-color: rgb(250, 237, 205);
-    background: linear-gradient(to bottom, var(--platinum) 8%, var(--mellow-yellow) 100%);
-    background: linear-gradient(to bottom, var(--platinum) 50%, var(--mellow-yellow) 50%);
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
-    background: linear-gradient(to bottom right, var(--platinum) 10%, var(--mellow-yellow) 90%);
-  } */
+.about-words{
+  z-index: 2;
+  margin-top: 100px;
+  backdrop-filter: blur(4px);
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  background-color: rgba(188,143,143, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
   
  #about h1 {
     font-size: 3rem;

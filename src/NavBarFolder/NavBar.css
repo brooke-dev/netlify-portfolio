@@ -36,6 +36,21 @@ nav button img {
   animation: spin 10s linear infinite;
 }
 
+.menu-icon {
+  /* display: none; */
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    margin-right: auto;
+  }
+}
+
+
 @keyframes spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

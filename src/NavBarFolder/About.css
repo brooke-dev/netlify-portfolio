@@ -7,6 +7,21 @@
   padding: 10px 20px;
   border-radius: 10px;
 }
+
+.about-words a{
+  font-weight: bold;
+  color: var(--mellow-yellow);
+  /* text-decoration: none; */
+  transition: all 0.2s ease-in-out;
+  z-index: 2;
+}
+
+.about-words a:hover{
+    color: var(--reseda-green);
+    border-bottom: 3px solid var(--reseda-green);
+    /* font-size: 18px; */
+    z-index: 2;
+}
   
  #about h1 {
     font-size: 3rem;

@@ -41,8 +41,6 @@ nav button img {
   to { transform: rotate(360deg); }
 }
 
-
-
   @media (max-width: 768px) {
   /* modify the padding to accommodate smaller screen sizes */
   nav {
@@ -50,7 +48,7 @@ nav button img {
   }
 
   /* stack the links vertically and center them */
-  nav ul {
+  .nav-right {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,12 +56,11 @@ nav button img {
   }
 
   /* add space between the links */
-  a {
-    margin: 0.5rem 0;
+  .nav-right a {
+    margin: rem 0;
   }
-
   /* remove the margin from the first link */
-  nav a:first-child {
+  .nav-right a:first-child {
     margin-right: 0;
   }
 

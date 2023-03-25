@@ -1,23 +1,23 @@
 import React from 'react';
 import './NavBar.css'; // Import CSS styles for the component
 // import { NavLink } from 'react-router-dom';
-import darkmode from './iconImages/darkmode.png'
-import lightmode from './iconImages/lightmode.png'
+// import darkmode from './iconImages/darkmode.png'
+// import lightmode from './iconImages/lightmode.png'
 // import brain from './iconImages/brain.png'
 import { Link } from 'react-scroll';
 
 
 function NavBar({isDarkMode, setIsDarkMode}) {
 
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-  };
+  // const toggleDarkMode = () => {
+  //   setIsDarkMode(!isDarkMode);
+  // };
   
   return (
     <nav className={isDarkMode ? 'dark-mode' : 'light-mode'}>
-      <button onClick={toggleDarkMode}>
+      {/* <button onClick={toggleDarkMode}>
         <img src={isDarkMode ? lightmode : darkmode} alt="Toggle dark mode" />
-      </button>      
+      </button>       */}
       <div className='nav-right'>
         <Link to="home" smooth={true} duration={500}>Home</Link>
         <Link to="about" smooth={true} duration={500}>About</Link>

@@ -129,7 +129,6 @@ html {
   background-image: url('https://lh3.googleusercontent.com/pw/AMWts8CEu6cVQ3emsphkNRq_gU4MXla2BK1aIcmLPlPpRjsQgSKAmbVCYVt7u10p1LZ-ftfld-MZg24TUxNJ5h3zY278EfI-8MDqG_IkbFCwbOr_KDuQ2w57BQ6tlgDfkbnJhre-LS-3Hl3dlo0xwXkaxwQG1Q=w1704-h1278-s-no?authuser=1');
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-size: contain; */
   z-index: -1;
 }
 
@@ -172,7 +171,7 @@ html {
   padding: 50px 0;
   text-align: center;
 }
-
+/* 
 #home::before,
 #about::before {
   content: "";
@@ -185,4 +184,4 @@ html {
   opacity: 0.4;
   mix-blend-mode: multiply;
   z-index: 1;
-}
+} */

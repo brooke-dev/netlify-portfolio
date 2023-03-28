@@ -3,15 +3,10 @@
   z-index: 2;
   margin-top: 150px;
   backdrop-filter: blur(4px);
-  /* background-color: rgba(255, 255, 255, 0.5); */
   background-color: rgba(188,143,143, 0.5);
   padding: 10px 20px;
   border-radius: 10px;
 }
-
-/* .links {
-  z-index: 2;
-} */
   
   h1 {
     font-size: 3rem;
@@ -61,7 +56,7 @@
 
   @media (max-width: 600px) {
     img {
-      max-width: 150px; /* Set a smaller maximum width for screens with a maximum width of 600px */
+      max-width: 150px; 
     }
     #home {
       padding-top: 400px;
@@ -77,8 +72,8 @@
   
   @media (min-width: 601px) and (max-width: 1200px) {
     #home {
-      padding-top: 300px;
-      padding-bottom: 300px;
+      padding-top: 200px;
+      padding-bottom: 200px;
     }
     .home-words {
       margin-top: 75px;
@@ -90,8 +85,8 @@
   
   @media (min-width: 1201px) and (max-width: 1600px) {
     #home {
-      padding-top: 200px;
-      padding-bottom: 200px;
+      padding-top: 100px;
+      padding-bottom: 100px;
     }
     .home-words {
       margin-top: 100px;
@@ -103,7 +98,7 @@
   
   @media (min-width: 1601px) {
     #home {
-      height: 100vw;
+      width: 100%;
     }
     .home-words {
       margin-top: 150px;

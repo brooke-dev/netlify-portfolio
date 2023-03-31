@@ -1,16 +1,14 @@
 nav {
-    background-color: rgba(149,67,36, 0.8);
+    /* background-color: rgba(149,67,36, 0.8); */
+    background-color: rgba(58,92,236, 0.9);
     color: white;
     display: flex;
-    /* justify-content: flex-end; update justify-content to push links to the right */
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 97%;
-    z-index: 9999;
+    z-index: 3;
   }
 
 nav a{

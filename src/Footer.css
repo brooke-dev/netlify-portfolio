@@ -1,9 +1,12 @@
 .footer {
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
+    /* display: flex;
+    justify-content: center; */
+    /* margin-top: 0px; */
     /* background-color: rgb(250, 237, 205) ; */
-    background-color: var(--chestnut);
+    /* background-color: var(--chestnut); */
+    background-color:rgb(58,92,236);
+    padding: 30px;
+    text-align: center;
 
   }
   
@@ -25,3 +28,9 @@
     margin-left: 20px;
   }
   
+  @media screen and (max-width: 400px) {
+    .footer{
+      margin: 0;
+      padding: 15px;
+    }
+  }

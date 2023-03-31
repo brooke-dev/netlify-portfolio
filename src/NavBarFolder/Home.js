@@ -37,7 +37,7 @@ function Home() {
         <a href="https://medium.com/@brooke.ross2800" target="_blank" rel="noopener noreferrer"><FaMedium /></a>
       </div>
     </div>
-  
+    <div className="angle angle1"></div>
   </section>
   );
 }

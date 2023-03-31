@@ -1,6 +1,7 @@
 .about-words{
   z-index: 2;
-  margin-top: 100px;
+  margin: 50px;
+  /* margin-top: 100px; */
   backdrop-filter: blur(4px);
   /* background-color: rgba(255, 255, 255, 0.5); */
   background-color: rgba(188,143,143, 0.5);

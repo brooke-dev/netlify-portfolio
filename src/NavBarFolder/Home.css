@@ -1,9 +1,9 @@
 
 .home-words{
   z-index: 2;
-  margin-top: 150px;
+  /* margin-top: 150px; */
+  margin: 50px;
   backdrop-filter: blur(4px);
-  /* background-color: rgba(188,143,143, 0.5); */
   background-color: rgba(255,255,255, 0.5);
   padding: 10px 20px;
   border-radius: 10px;
@@ -70,6 +70,8 @@
       border-radius: 5px;
     }
   }
+
+
   
   @media (min-width: 601px) and (max-width: 1200px) {
     #home {

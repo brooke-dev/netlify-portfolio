@@ -8,6 +8,7 @@ import { Element } from 'react-scroll';
 import NavBar from './NavBarFolder/NavBar'
 import Home from './NavBarFolder/Home'
 import About from './NavBarFolder/About'
+import Skills from './NavBarFolder/Skills'
 import Projects from './NavBarFolder/Projects'
 import Connect from './NavBarFolder/Connect'
 import Footer from './Footer'
@@ -30,6 +31,9 @@ function App() {
         </Element>
         <Element name="about">
           <About />
+        </Element>
+        <Element name="skills">
+          <Skills />
         </Element>
         <Element name="projects">
           <Projects />

@@ -17,9 +17,11 @@
 }
 
 .about-words a:hover{
-    color: var(--reseda-green);
-    border-bottom: 3px solid var(--reseda-green);
+    /* color: var(--reseda-green);
+    border-bottom: 3px solid var(--reseda-green); */
     /* font-size: 18px; */
+    color: white;
+    border-bottom: 3px solid white;
     z-index: 2;
 }
   

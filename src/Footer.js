@@ -10,7 +10,7 @@ const Footer = () => {
         <a href="https://github.com/brookeross99" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
         <a href="https://medium.com/@brooke.ross2800" target="_blank" rel="noopener noreferrer"><FaMedium /></a>
       </div>
-      <p>React, JavaScript, HTML, CSS oh my! Made with love by Brooke Ross</p>
+      <p className="footer-made">React, JavaScript, HTML, CSS oh my! Made with love by Brooke Ross</p>
     </div>
   );
 };

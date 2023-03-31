@@ -5,9 +5,9 @@
     /* background-color: rgb(250, 237, 205) ; */
     /* background-color: var(--chestnut); */
     background-color:rgb(58,92,236);
-    padding: 30px;
+    padding: 15px;
+    /* height: 5vh; */
     text-align: center;
-
   }
   
   .footer a {

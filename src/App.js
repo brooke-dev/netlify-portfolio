@@ -12,6 +12,7 @@ import Skills from './NavBarFolder/Skills'
 import Projects from './NavBarFolder/Projects'
 import Connect from './NavBarFolder/Connect'
 import Footer from './Footer'
+// import ArchivedProjects from './ArchivedProjects/ArchivedProjects'
 
 
 

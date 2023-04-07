@@ -69,7 +69,7 @@
   }
   
   /* Styles for phones */
-  @media (max-width: 600px) {
+  /* @media (max-width: 600px) {
     .project-container {
       flex-direction: column;
     }
@@ -99,5 +99,36 @@
     .links a {
       margin: 5px 0;
     }
-  }
+  } */
   
+  @media (max-width: 600px) {
+    .project-container {
+      flex-direction: column;
+    }
+  
+    .project {
+      width: 100%;
+      height: auto;
+    }
+  
+    .overlay {
+      position: static;
+      background-color: rgba(0, 0, 0, 0.6);
+      opacity: 1;
+    }
+  
+    .description {
+      padding: 10px 20px;
+      text-align: center;
+    }
+  
+    .links {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+    .links a {
+      margin: 5px 0;
+    }
+  }

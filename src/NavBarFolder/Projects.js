@@ -4,9 +4,20 @@ import BusyBee from './ProjectImages/BusyBee.png'
 import MasterPeaceGrillHome from './ProjectImages/masterpeacegrillhome.jpg'
 import PlantasticHome from './ProjectImages/PlantasticHome.png'
 import BreweryTomfoolerly from './ProjectImages/BreweryTomfoolerly.png'
+import comingsoon from './ProjectImages/comingsoon.jpg'
 
 function Projects() {
   const projects = [
+    {
+      title: "Art Portfolio",
+      screenshot: comingsoon,
+      // demoLink: "https://drive.google.com/file/d/1gyEq202fHD2VUiE1QYxJFcpxGOMwJpXo/view?usp=share_link",
+      // linkedinLink: "https://www.linkedin.com/in/brooke-ross-se/overlay/1635516789378/single-media-viewer/?profileId=ACoAADwX6XwB7YAaUUDQJDvgb33bSY7fuLptSgw",
+      // githubLink: "https://github.com/brookeross99/master_peace_grill",
+      description: "Working in an Agile environment to create an art portfolio for local Colorado University Boulder Art Student. Client will be able to display art and sell it using a Paypal integrated checkout. Experience in Figma, Next.js, Tailwind, Bunnynet CDN, and paypal integration ",
+      skillsTools:["Next.js","Tailwind","Bunny Net CDN", "Paypal Integration"]
+    }
+    ,
     {
       title: "Master Peace Grill",
       screenshot: MasterPeaceGrillHome,
@@ -62,6 +73,7 @@ function Projects() {
               </div>
           </div>
         ))}
+       <a>See Archived Projects(coming soon)</a>
       </div>
     </section>
   );

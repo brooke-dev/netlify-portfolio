@@ -21,8 +21,18 @@ function Skills() {
                 <li>RESTful APIs</li>
                 <li>AWS</li>
                 <li>VS Code</li>
-
+                <li>Bootstrap CSS</li>
+                <li>Agile Methodologies</li>
+                <li>Notion As a Task Manager</li>
             </ul>
+            <h2>Work in Progress...</h2>
+            <h3>I am continuing my education through Udemy and other useful online resources. My current projects and learning include the following:</h3>
+              <ul className='skills-two-col'>
+                <li>Next.js</li>
+                <li>Tailwind CSS</li>
+                <li>AWS Certified Soulutions Architect - Associate, Udemy Course Prep</li>
+                <li>Figma</li>
+              </ul>
         </div>
     </section>
   );

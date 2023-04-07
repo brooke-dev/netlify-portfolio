@@ -73,7 +73,7 @@ function Projects() {
               </div>
           </div>
         ))}
-       <a>See Archived Projects(coming soon)</a>
+       <a href="#projects">See Archived Projects(coming soon)</a>
       </div>
     </section>
   );

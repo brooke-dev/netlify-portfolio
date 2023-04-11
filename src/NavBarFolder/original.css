@@ -1,0 +1,89 @@
+nav {
+    /* background-color: rgba(149,67,36, 0.8); */
+    background-color: rgba(58,92,236, 0.9);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    position: fixed;
+    width: 97%;
+    z-index: 3;
+  }
+
+nav a{
+  padding: 14px 16px;
+}
+.nav-right{
+  display: flex;
+  align-items: center;
+}
+
+nav button{
+  background-color: rgb(204, 213, 174);
+  margin-right: auto; /* align button to left */
+}
+
+nav button img {
+  width: 85%;
+  height: auto;
+  max-width: 30px; /* add a maximum width for smaller screens */
+}
+
+.brain-button.rotate img {
+  animation: spin 10s linear infinite;
+}
+
+.menu-icon {
+  /* display: none; */
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    margin-right: auto;
+  }
+}
+
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+  @media (max-width: 768px) {
+  /* modify the padding to accommodate smaller screen sizes */
+  nav {
+    padding: 1rem;
+  }
+
+  /* stack the links vertically and center them */
+  .nav-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* add space between the links */
+  .nav-right a {
+    margin: rem 0;
+  }
+  /* remove the margin from the first link */
+  .nav-right a:first-child {
+    margin-right: 0;
+  }
+
+  nav button {
+    padding: 8px; /* reduce the padding to make the button smaller */
+    font-size: 14px; /* reduce the font size to match the smaller button */
+  }
+  
+  nav button img {
+    max-height: 20px; /* reduce the maximum height of the images */
+  }
+}
+

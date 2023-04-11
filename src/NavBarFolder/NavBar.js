@@ -8,26 +8,66 @@ import { Link } from 'react-scroll';
 
 
 function NavBar({isDarkMode, setIsDarkMode}) {
+  const hamburger = document.querySelector(".hamburger");
+  const bar1 = document.querySelector(".bar1");
+  const bar2 = document.querySelector(".bar2");
+  const bar3 = document.querySelector(".bar3");
+  const mobileNav = document.querySelector(".mobileNav");
+
+  hamburger.addEventListener("click", () => {
+    bar1.classList.toggle("animateBar1");
+    bar2.classList.toggle("animateBar2");
+    bar3.classList.toggle("animateBar3");
+    mobileNav.classList.toggle("openDrawer");
+  });
+
 
   // const toggleDarkMode = () => {
   //   setIsDarkMode(!isDarkMode);
   // };
   
+  // return (
+  //   // <nav className={isDarkMode ? 'dark-mode' : 'light-mode'}>
+  //   <nav>
+  //     {/* <button onClick={toggleDarkMode}>
+  //       <img src={isDarkMode ? lightmode : darkmode} alt="Toggle dark mode" />
+  //     </button>       */}
+  //     <div className='nav-right'>
+  //       <Link to="home" smooth={true} duration={500}>Home</Link>
+  //       <Link to="about" smooth={true} duration={500}>About</Link>
+  //       <Link to="skills" smooth={true} duration={500}>Skills</Link>
+  //       <Link to="projects" smooth={true} duration={500}>Projects</Link>
+  //       <Link to="connect" smooth={true} duration={500}>Connect with Me!</Link>
+  //     </div>
+  //   </nav>
+  // );
+
   return (
-    <nav className={isDarkMode ? 'dark-mode' : 'light-mode'}>
-      {/* <button onClick={toggleDarkMode}>
-        <img src={isDarkMode ? lightmode : darkmode} alt="Toggle dark mode" />
-      </button>       */}
-      <div className='nav-right'>
-        <Link to="home" smooth={true} duration={500}>Home</Link>
-        <Link to="about" smooth={true} duration={500}>About</Link>
-        <Link to="skills" smooth={true} duration={500}>Skills</Link>
-        <Link to="projects" smooth={true} duration={500}>Projects</Link>
-        <Link to="connect" smooth={true} duration={500}>Connect with Me!</Link>
-      </div>
-     
-    </nav>
-  );
+    <div>
+       <header className="navbar">
+            <div className="left">Brooke Ross</div>
+            <nav className="right">
+              <Link to="home" smooth={true} duration={500}>Home</Link>
+              <Link to="about" smooth={true} duration={500}>About</Link>
+              <Link to="skills" smooth={true} duration={500}>Skills</Link>
+              <Link to="projects" smooth={true} duration={500}>Projects</Link>
+              <Link to="connect" smooth={true} duration={500}>Connect with Me!</Link>
+            </nav>
+            <div className="hamburger">
+                <div className="bar1"></div>
+                <div className="bar2"></div>
+                <div className="bar3"></div>
+            </div>
+        </header>
+        <nav className="mobileNav">
+          <Link to="home" smooth={true} duration={500}>Home</Link>
+          <Link to="about" smooth={true} duration={500}>About</Link>
+          <Link to="skills" smooth={true} duration={500}>Skills</Link>
+          <Link to="projects" smooth={true} duration={500}>Projects</Link>
+          <Link to="connect" smooth={true} duration={500}>Connect with Me!</Link>
+        </nav>
+    </div>
+  )
 }
 
 export default NavBar;

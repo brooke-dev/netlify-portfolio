@@ -14,13 +14,6 @@ function NavBar({isDarkMode, setIsDarkMode}) {
   const bar3 = document.querySelector(".bar3");
   const mobileNav = document.querySelector(".mobileNav");
 
-  // hamburger.addEventListener("click", () => {
-  //   bar1.classList.toggle("animateBar1");
-  //   bar2.classList.toggle("animateBar2");
-  //   bar3.classList.toggle("animateBar3");
-  //   mobileNav.classList.toggle("openDrawer");
-  // });
-
   if (hamburger) {
     hamburger.addEventListener("click", () => {
       bar1.classList.toggle("animateBar1");
@@ -28,8 +21,10 @@ function NavBar({isDarkMode, setIsDarkMode}) {
       bar3.classList.toggle("animateBar3");
       mobileNav.classList.toggle("openDrawer");
     });
+    console.log("clicked")
   }
-  
+
+
   return (
     <div>
        <header className="navbar">

@@ -21,27 +21,6 @@ function NavBar({isDarkMode, setIsDarkMode}) {
     mobileNav.classList.toggle("openDrawer");
   });
 
-
-  // const toggleDarkMode = () => {
-  //   setIsDarkMode(!isDarkMode);
-  // };
-  
-  // return (
-  //   // <nav className={isDarkMode ? 'dark-mode' : 'light-mode'}>
-  //   <nav>
-  //     {/* <button onClick={toggleDarkMode}>
-  //       <img src={isDarkMode ? lightmode : darkmode} alt="Toggle dark mode" />
-  //     </button>       */}
-  //     <div className='nav-right'>
-  //       <Link to="home" smooth={true} duration={500}>Home</Link>
-  //       <Link to="about" smooth={true} duration={500}>About</Link>
-  //       <Link to="skills" smooth={true} duration={500}>Skills</Link>
-  //       <Link to="projects" smooth={true} duration={500}>Projects</Link>
-  //       <Link to="connect" smooth={true} duration={500}>Connect with Me!</Link>
-  //     </div>
-  //   </nav>
-  // );
-
   return (
     <div>
        <header className="navbar">

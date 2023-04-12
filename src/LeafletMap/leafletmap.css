@@ -1,0 +1,19 @@
+.map-container {
+    width: 100vw;
+    max-width: 100%;
+    /* margin: 0 auto; */
+    background-color: rgb(225, 180, 229);
+  }
+  
+.map-container h2 {
+  margin:0;
+  padding: 0.5rem;
+}
+
+.map-box {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

@@ -1,16 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 
 function LeafletMap({markers}) {
  
-  // Centered over the united states
-  const [position, setPosition] = useState([39.8283, -98.5795]);
-
-
-  return (
+ return (
     <div className="map-box">
-      <MapContainer center={position} zoom={4} style={{ height: "400px" }}>
+      <MapContainer center={[39.8283, -98.5795]} zoom={4} style={{ height: "400px" }}>
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         {markers.map((marker) => (
           <Marker key={marker.id} position={marker.position}>

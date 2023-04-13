@@ -11,7 +11,7 @@ function Skills() {
             <ul className='skills-two-col'>
                 <li>JavaScript</li>
                 <li>HTML</li>
-                <li>CSS</li>
+                <li>Responsive CSS</li>
                 <li>React.js</li>
                 <li>Ruby on Rails</li>
                 <li>SQL</li>
@@ -25,6 +25,7 @@ function Skills() {
                 <li>Agile Methodologies</li>
                 <li>Notion As a Task Manager</li>
                 <li>React Leaflet</li>
+                <li>Exceptional at using Google, ChatGPT, and Stack Overflow 🎉 😉</li>
             </ul>
             <h2>Work in Progress...</h2>
             <h3>I am continuing my education through Udemy and other useful online resources. My current projects and learning include the following:</h3>

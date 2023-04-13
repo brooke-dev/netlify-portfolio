@@ -1,8 +1,4 @@
 .navbar {
-  /* display: flex;
-  justify-content: space-between;
-  padding: 64px 0;
-  margin: 0px 30px; */
   background-color: rgba(58,92,236, 0.9);
   color: white;
   display: flex;
@@ -10,18 +6,22 @@
   align-items: center;
   padding: 2rem;
   position: fixed;
-  width: 97%;
+  width: 100%;
   z-index: 3;
 }
 .navbar .left {
   font-size: 32px;
   font-weight: bold;
 }
+
+
 .navbar .right {
-  width: 400px;
+  width: auto; 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  /* justify-content: space-between; */
   align-items: center;
+  flex-grow: 1;
 }
 
 .bar1,

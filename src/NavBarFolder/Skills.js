@@ -13,7 +13,9 @@ function Skills() {
                 <li>HTML</li>
                 <li>Responsive CSS</li>
                 <li>React.js</li>
+                <li>React Leaflet</li>
                 <li>Ruby on Rails</li>
+                <li>Node.js</li>
                 <li>SQL</li>
                 <li>PostgreSQL</li>
                 <li>Object-Oriented Programming</li>
@@ -24,7 +26,6 @@ function Skills() {
                 <li>Bootstrap CSS</li>
                 <li>Agile Methodologies</li>
                 <li>Notion As a Task Manager</li>
-                <li>React Leaflet</li>
                 <li>Exceptional at using Google, ChatGPT, and Stack Overflow 🎉 😉</li>
             </ul>
             <h2>Work in Progress...</h2>

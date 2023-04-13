@@ -19,11 +19,12 @@ function Skills() {
                 <li>Object-Oriented Programming</li>
                 <li>Github</li>
                 <li>RESTful APIs</li>
-                <li>AWS</li>
+                <li>AWS S3 Bucket</li>
                 <li>VS Code</li>
                 <li>Bootstrap CSS</li>
                 <li>Agile Methodologies</li>
                 <li>Notion As a Task Manager</li>
+                <li>React Leaflet</li>
             </ul>
             <h2>Work in Progress...</h2>
             <h3>I am continuing my education through Udemy and other useful online resources. My current projects and learning include the following:</h3>

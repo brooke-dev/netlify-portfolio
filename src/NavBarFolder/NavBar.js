@@ -8,21 +8,6 @@ import { Link } from 'react-scroll';
 
 
 function NavBar({isDarkMode, setIsDarkMode}) {
-  // const hamburger = document.querySelector(".hamburger");
-  // const bar1 = document.querySelector(".bar1");
-  // const bar2 = document.querySelector(".bar2");
-  // const bar3 = document.querySelector(".bar3");
-  // const mobileNav = document.querySelector(".mobileNav");
-
-  // if (hamburger) {
-  //   hamburger.addEventListener("click", () => {
-  //     bar1.classList.toggle("animateBar1");
-  //     bar2.classList.toggle("animateBar2");
-  //     bar3.classList.toggle("animateBar3");
-  //     mobileNav.classList.toggle("openDrawer");
-  //   });
-  //   console.log("clicked")
-  // }
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -41,6 +26,7 @@ function NavBar({isDarkMode, setIsDarkMode}) {
               <Link to="skills" smooth={true} duration={500}>Skills</Link>
               <Link to="projects" smooth={true} duration={500}>Projects</Link>
               <Link to="connect" smooth={true} duration={500}>Connect with Me!</Link>
+              <Link to="map-element" smooth={true} duration={500}>Make your Mark</Link>
             </nav>
             <div className="hamburger" onClick={toggleMobileNav}>
               <div className={`bar1 ${isOpen ? 'animateBar1' : ''}`}></div>
@@ -54,6 +40,7 @@ function NavBar({isDarkMode, setIsDarkMode}) {
           <Link to="skills" smooth={true} duration={500}>Skills</Link>
           <Link to="projects" smooth={true} duration={500}>Projects</Link>
           <Link to="connect" smooth={true} duration={500}>Connect with Me!</Link>
+          <Link to="map-element" smooth={true} duration={500}>Make your Mark</Link>
         </nav>
     </div>
   )

@@ -11,6 +11,8 @@ import About from './NavBarFolder/About'
 import Skills from './NavBarFolder/Skills'
 import Projects from './NavBarFolder/Projects'
 import Connect from './NavBarFolder/Connect'
+import MapForm from './LeafletMap/MapForm'
+// import LeafletMap from './LeafletMap/LeafletMap'
 import Footer from './Footer'
 // import ArchivedProjects from './ArchivedProjects/ArchivedProjects'
 
@@ -41,6 +43,9 @@ function App() {
         </Element>
         <Element name="connect">
           <Connect />
+        </Element>
+        <Element name="map-element">
+          <MapForm />
         </Element>
         <Footer />
     </div>

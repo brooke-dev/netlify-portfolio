@@ -53,9 +53,17 @@
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    padding-top:15px;
   }
+
+  .see-skills {
+    font-family: "Forum", serif;
+  }
+
   
-  .links a {
+  .links a, 
+  .see-skills
+   {
     color: #fff;
     background-color: rgb(212, 163, 115);
     border-radius: 5px;
@@ -64,9 +72,34 @@
     text-decoration: none;
   }
   
-  .links a:hover {
+  .links a:hover 
+  .see-skills:hover
+  {
     background-color: rgb(250, 237, 205);
   }
+
+  .skills-tools {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .skills-tools ul {
+    display: flex;
+    list-style-type:none;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skill {
+    background-color: #050303;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin: 0.2rem;
+    padding: 0.5rem 0.75rem;
+  }
+  
   
   /* Styles for phones */
   /* @media (max-width: 600px) {

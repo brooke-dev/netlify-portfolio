@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Projects.css'
 import BusyBee from './ProjectImages/BusyBee.png'
 import MasterPeaceGrillHome from './ProjectImages/masterpeacegrillhome.jpg'
@@ -7,15 +7,18 @@ import BreweryTomfoolerly from './ProjectImages/BreweryTomfoolerly.png'
 import comingsoon from './ProjectImages/comingsoon.jpg'
 
 function Projects() {
+
+  const [showSkills, setShowSkills] = useState(false);
+
   const projects = [
     {
       title: "Art Portfolio",
       screenshot: comingsoon,
-      demoLink: "https://www.linkedin.com/in/brooke-ross-se/",
-      linkedinLink: "https://www.linkedin.com/in/brooke-ross-se/",
-      githubLink: "https://github.com/brookeross99",
+      // demoLink: "https://www.linkedin.com/in/brooke-ross-se/",
+      // linkedinLink: "https://www.linkedin.com/in/brooke-ross-se/",
+      githubLink: "https://github.com/brookeross99/madison-portfolio",
       description: "Working in an Agile environment to create an art portfolio for local Colorado University Boulder Art Student. Client will be able to display art and sell it using a Paypal integrated checkout. Experience in Figma, Next.js, Tailwind, Bunnynet CDN, and paypal integration ",
-      skillsTools:["Next.js","Tailwind","Bunny Net CDN", "Paypal Integration"]
+      skillsTools:["Next.js","Tailwind CSS","Bunny Net CDN", "Paypal Integration","React.js", "Agile Environment", "Project Manager"]
     }
     ,
     {
@@ -65,10 +68,34 @@ function Projects() {
               <img src={project.screenshot} alt={project.title} />
               <div className="overlay">
                 <div className="description">{project.description}</div>
+                <button className="see-skills" onClick={() => setShowSkills(!showSkills)}>See Skills</button>
+                {showSkills && (
+                  <div className="skills-tools">
+                    <ul>
+                      {project.skillsTools.map((skill) => (
+                        <li key={skill} className="skill">
+                          {skill}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
                 <div className="links">
-                  <a href={project.demoLink} target="_blank" rel="noopener noreferrer">Demo</a>
-                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <a href={project.linkedinLink} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                  {project.demoLink && (
+                    <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
+                      Demo
+                    </a>
+                  )}
+                 {project.githubLink && (
+                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                      GitHub
+                    </a>
+                  )}
+                {project.linkedinLink && (
+                  <a href={project.linkedinLink} target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                  </a>
+                )}
                 </div>
               </div>
           </div>
